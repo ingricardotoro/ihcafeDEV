@@ -88,6 +88,10 @@ const BudgetLine = sequelize.define(
       type: Sequelize.DOUBLE,
       allowNull: false,
     },
+    budgetactual: {
+      type: Sequelize.DOUBLE,
+      allowNull: false,
+    },
     buddgetfinal: {
       type: Sequelize.DOUBLE,
       allowNull: false,
